@@ -1,0 +1,40 @@
+.about{
+	text-align:center;
+}
+.about p{
+	font-size:40px;
+	color:#017c97;
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+.info{
+	width: 450px;
+}
+.info h1,h2,h3,h4,h5,h6{
+	font-family: 'Averia Serif Libre', cursive;
+}
+.info h1{
+	font-size:35px;
+}
+.info h2{
+	font-size:25px;
+}
+
+.info input{
+	font-family: 'Averia Serif Libre', cursive;
+	font-size:20px;
+	padding: 8px;
+	margin: 5px;
+	border: solid 1px gray;
+	border-radius: 8px;
+}
+.info button{
+	font-family: 'Averia Serif Libre', cursive;
+	font-size:20px;
+	padding: 8px;
+	margin: 5px;
+	border: solid 1px gray;
+	background:white;
+	text-align: center;
+	border-radius: 8px;
+}

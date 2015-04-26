@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Ejemplo</title>
+	<style type="text/css">
+
+		.left{float:left;}
+		.right{float:right;}
+		.clear{clear:both;}
+
+		.board table tr td{
+			margin:0px !important;
+			padding:0px !important;
+		}
+
+		.dot{
+			height:7px;
+			width:7px;
+			background:#333;
+		}
+		.h_line{
+			height:10px;
+			width:50px;
+			cursor:pointer;
+		}
+		.v_line{
+			height:50px;
+			width:10px;
+			cursor:pointer;
+		}
+		.box{
+			width:50px;
+			height:50px;
+			border:none !important;
+		}
+
+		.user_info{
+			width:150px;
+			text-align:right;
+			padding:8px;
+		}
+
+		.current_user{
+			background:green;
+			color:green;
+			display:none;
+			margin:5px;
+			border:solid 2px white;
+			border-radius:8px;
+		}
+		.username{
+			background-color:#000;
+			color:#fff;
+			opacity:0.85;
+			padding:4px;
+			font-family:'Arial',arial,serif;
+			font-weight:800;
+		}
+		.score{
+			background-color:#000;
+			color:#fff;
+			opacity:0.85;
+			padding:4px;
+			font-family:'Arial',arial,serif;
+			font-weight:800;
+		}
+		.selected{
+			cursor:default !important;
+		}
+	</style>
+</head>
+<body>
+	<div class="canvas left"></div>
+	<div class="right info"></div>
+	<div class="clear"></div>
+<script type="text/javascript" src="../less-1.3.0.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script type="text/javascript" src="board.js"></script>
+</body>
+</html>
